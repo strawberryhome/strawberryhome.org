@@ -1,2 +1,0 @@
-# strawberryhome.org
-🍓🏠
