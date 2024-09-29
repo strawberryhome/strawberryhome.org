@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title id="title">&#127827;&#127968;</title>
     <meta property="og:title" content="Strawberry Home" />
-    <meta name="description" content="Enter the garden">
-    <meta property="og:description" content="Enter the garden" />
-    <meta name="theme-color" content="#efefef" />
+    <meta name="description" content="The Strawberrys' Homelab">
+    <meta property="og:description" content="The Strawberrys' Homelab" />
+    <meta name="theme-color" content="#f8312f" />
     <meta property="og:image" content="https://strawberryhome.org/assets/logo.png">
     <meta property="og:site_name" content="strawberryhome.org">
     <meta name="robots" content="noindex">
@@ -16,7 +16,68 @@
 </head>
 
 <body>
-    <p>hello world</p>
+    <header>
+        <h1 title="Strawberry Home">&#127827;&#127968;</h1>
+        <nav>
+            <button class="icon" id="reroll" title="New Background">
+                <img class="icon inverted" src="assets/feathericons/refresh-cw.svg" alt="New Background">
+            </button>
+            <!-- <button class="icon round" id="visibility-toggle" title="Hide Content">
+                <img class="icon inverted round" src="assets/feathericons/eye.svg" alt="Hide Content">
+            </button> -->
+            <!-- <button class="icon round" title="About">
+                <img class="icon inverted round" src="assets/feathericons/info.svg" alt="About">
+            </button> -->
+            <a class="icon round no-image-padding" href="https://github.com/strawberryhome" title="Github">
+                <img class="icon inverted no-image-padding round" src="assets/simpleicons/github.svg" alt="Github">
+            </a>
+        </nav>
+    </header>
+    <div id="container">
+        <div id="background"></div>
+        <div id="content">
+            <article>
+                <a href="https://forest.strawberryhome.org">
+                    <h1>Forest</h1>
+                </a>
+                <p>Web directory via <a href="https://www.mediawiki.org/wiki/MediaWiki">MediaWiki</a></p>
+            </article>
+            <article>
+                <h1>Vault</h1>
+                <p>Knowledge base via <a href="https://obsidian.md/">Obsidian</a> <a href="https://quartz.jzhao.xyz/">Quartz 4</a> (coming soon)</p>
+            </article>
+            <article>
+                <h1>Bookmarks</h1>
+                <p>Social bookmarking via <a href="https://linkding.link/">linkding</a> (coming soon)</p>
+            </article>
+            <article>
+                <a href="https://finance.strawberryhome.org">
+                    <h1>Finance</h1>
+                </a>
+                <p>Personal finance manager via <a href="https://www.firefly-iii.org/">Firefly III</a></p>
+            </article>
+            <article>
+                <h1>Cloud</h1>
+                <p>File host via <a href="https://chibisafe.app/">chibisafe</a> (coming soon)</p>
+            </article>
+            <article>
+                <h1>Library</h1>
+                <p>An archive and love letter to the world via <a href="https://git.five.sh/ivfi/">ivfi</a> and <a href="https://github.com/rebane2001/hobune">hobune</a> (planned)</p>
+            </article>
+            <article>
+                <h1>M2K</h1>
+                <p>HEAT DEATH OF THE CORPORATE INTERNET (coming soon)</p>
+            </article>
+            <article>
+                <h1>Sin's Temple</h1>
+                <p>Monument to beliefs, spirituality, and religion (planned)</p>
+            </article>
+        </div>
+    </div>
+    <footer>
+        <p><a id="background-title">Loading...</a></p>
+    </footer>
+    <script type="module" src="background.js"></script>
 </body>
 
 </html>
