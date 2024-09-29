@@ -1035,7 +1035,6 @@ const backgrounds = [
     "Hortus Haren. 06-05-2020 (actm.) 08.jpg",
     "Hortus Haren. 06-05-2020 (actm.) 10.jpg",
     "Hortus Haren. 06-05-2020 (actm.) 11.jpg",
-    "Hortus Haren. 06-05-2020 (actm.) 12.jpg",
     "Hortus Haren. 06-05-2020 (actm.) 13.jpg",
     "Hortus Haren. 06-05-2020 (actm.) 14.jpg",
     "Hortus Haren. 06-05-2020 (actm.) 15.jpg",
