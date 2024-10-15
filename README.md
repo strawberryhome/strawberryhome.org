@@ -4,8 +4,9 @@ Homepage for the Strawberrys' homelab 🍓🏠
 
 https://strawberryhome.org
 
-## Possible Additions
+## Todo
 
+- Better background scaling for mobile resolutions
 - Toggle content visibility
 - Info/About Model
 
